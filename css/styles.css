@@ -4,7 +4,7 @@
   --secondary-fond: "Raleway", sans-serif;
   --primaru-text-color: #2e2f42;
   --secondary-text-color: #434455;
-  --button-color:#4d5ae5;
+  --button-color: #4d5ae5;
 }
 
 body {
@@ -54,6 +54,7 @@ body {
   background: #2e2f42;
 }
 
+
 .button {
   font-family: var(--primary-fond);
 
@@ -64,7 +65,7 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 
-  color: var(--button-color);
+  color: #ffffff;
   background: #e7e9fc;
 }
 .button:hover,
@@ -129,8 +130,6 @@ body {
   color: #4d5ae5;
 }
 .logo-s {
- 
-
   color: var(--primaru-text-color);
 }
 .adress {
@@ -152,7 +151,6 @@ body {
   text-transform: capitalize;
   color: var(--primaru-text-color);
 }
-.footer-section-text{
-    color: #E7E9FC;
-
+.footer-section-text {
+  color: #e7e9fc;
 }
