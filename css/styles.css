@@ -8,15 +8,17 @@
 
 body {
   font-family: var(--primary-fond);
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
 }
 
 .list {
   list-style: none;
 }
 
-.link {
+.link:focus,
+.link:focus {
   text-decoration: none;
+  color: #404bbf;
 }
 
 .contacts-site {
@@ -28,6 +30,7 @@ body {
   color: var(--secondary-text-color);
 }
 .header-link {
+  color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.5;
 
@@ -36,7 +39,6 @@ body {
   color: var(--primary-text-color);
 }
 .hero-title {
- 
   font-size: 56px;
   line-height: 1.07;
 
@@ -46,12 +48,11 @@ body {
   color: #ffffff;
 }
 .hero {
-    background: #2e2f42;
+  background: #2e2f42;
 }
- 
 
-.button{
-  font-family:var(--primary-fond);
+.button {
+  font-family: var(--primary-fond);
 
   font-weight: 500;
   font-size: 16px;
@@ -60,7 +61,7 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 
-  color: #4d5ae5;
+  color: #ffffff;
   background: #e7e9fc;
 }
 .button:hover,
@@ -75,8 +76,32 @@ body {
   line-height: 1.2;
 
   letter-spacing: 0.02em;
+  color: var(--primaru-text-color);
+  
 }
 
+.secondary-img-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+   
+  }
+
+  .section-team-title{
+    font-size: 36px;
+  line-height: 1.11;
+
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--primaru-text-color)
+}
+  }
+  
 .section-text {
   font-size: 16px;
   line-height: 1.5;
@@ -86,7 +111,6 @@ body {
   color: var(--secondary-text-color);
 }
 .section-title {
-
   font-size: 36px;
   line-height: 1.11;
 
@@ -97,7 +121,7 @@ body {
 
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
 
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -109,10 +133,14 @@ body {
 
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
 
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: var(--primary-text-color);
+}
+.adress{font-style: normal}
+.footer{
+    background-color:var(--primaru-text-color)
 }
