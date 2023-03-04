@@ -4,6 +4,7 @@
   --secondary-fond: "Raleway", sans-serif;
   --primaru-text-color: #2e2f42;
   --secondary-text-color: #434455;
+  --button-color:#4d5ae5;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
 }
 
 .link:focus,
-.link:focus {
+.link:hover {
   color: #404bbf;
 }
 .link {
@@ -63,7 +64,7 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 
-  color: #ffffff;
+  color: var(--button-color);
   background: #e7e9fc;
 }
 .button:hover,
@@ -107,7 +108,7 @@ body {
 
   letter-spacing: 0.02em;
 
-  color: var(--primaru-text-color);
+  color: var(--secondary-text-color);
 }
 .section-title {
   font-size: 36px;
@@ -150,4 +151,8 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--primaru-text-color);
+}
+.footer-section-text{
+    color: #E7E9FC;
+
 }
