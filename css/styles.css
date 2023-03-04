@@ -107,7 +107,7 @@ body {
 
   letter-spacing: 0.02em;
 
-  color: var(--secondary-text-color);
+  color: var(--primaru-text-color);
 }
 .section-title {
   font-size: 36px;
@@ -128,16 +128,9 @@ body {
   color: #4d5ae5;
 }
 .logo-s {
-  font-family: var(--primaru-text-color);
+ 
 
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: var(--primary-text-color);
+  color: var(--primaru-text-color);
 }
 .adress {
   font-style: normal;
@@ -145,17 +138,16 @@ body {
 .footer {
   background-color: var(--primaru-text-color);
 }
-.footer-logo-s{
-    color: #f4f4fd;
+.footer-logo-s {
+  color: #f4f4fd;
 }
 
-.section-img-title{
-    font-size: 36px;
-    line-height: 1.11;
-  
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--primaru-text-color);
+.section-img-title {
+  font-size: 36px;
+  line-height: 1.11;
 
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--primaru-text-color);
 }
