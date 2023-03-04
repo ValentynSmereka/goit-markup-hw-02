@@ -17,8 +17,10 @@ body {
 
 .link:focus,
 .link:focus {
-  text-decoration: none;
   color: #404bbf;
+}
+.link {
+  text-decoration: none;
 }
 
 .contacts-site {
@@ -30,13 +32,13 @@ body {
   color: var(--secondary-text-color);
 }
 .header-link {
-  color: var(--primary-text-color);
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 
   letter-spacing: 0.02em;
 
-  color: var(--primary-text-color);
+  color: var(--primaru-text-color);
 }
 .hero-title {
   font-size: 56px;
@@ -77,31 +79,28 @@ body {
 
   letter-spacing: 0.02em;
   color: var(--primaru-text-color);
-  
 }
 
 .secondary-img-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-  
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-   
-  }
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 
-  .section-team-title{
-    font-size: 36px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.section-team-title {
+  font-size: 36px;
   line-height: 1.11;
 
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: var(--primaru-text-color)
+  color: var(--primaru-text-color);
 }
-  }
-  
+
 .section-text {
   font-size: 16px;
   line-height: 1.5;
@@ -129,7 +128,7 @@ body {
   color: #4d5ae5;
 }
 .logo-s {
-  font-family: var(--secondary-fond);
+  font-family: var(--primaru-text-color);
 
   font-weight: 800;
   font-size: 18px;
@@ -140,7 +139,23 @@ body {
 
   color: var(--primary-text-color);
 }
-.adress{font-style: normal}
-.footer{
-    background-color:var(--primaru-text-color)
+.adress {
+  font-style: normal;
+}
+.footer {
+  background-color: var(--primaru-text-color);
+}
+.footer-logo-s{
+    color: #f4f4fd;
+}
+
+.section-img-title{
+    font-size: 36px;
+    line-height: 1.11;
+  
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--primaru-text-color);
+
 }
