@@ -60,12 +60,12 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
+  
   letter-spacing: 0.04em;
   cursor: pointer;
 
   color:var(--button-color);
-  background: #e7e9fc;
+  background: #F4F4FD;
 }
 .button {
   font-family: var(--primary-fond);
@@ -77,8 +77,8 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 
-  color:var(--button-color);
-  background: #e7e9fc;
+  color: #FFFFFF;
+  background:  #4D5AE5;
 }
 .button:hover,
 .button:focus {
