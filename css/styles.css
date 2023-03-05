@@ -77,7 +77,7 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 
-  color: #ffffff;
+  color:var(--button-color);
   background: #e7e9fc;
 }
 .button:hover,
