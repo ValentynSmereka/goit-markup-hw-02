@@ -1,14 +1,14 @@
 :root {
   --accent-color: #404bbf;
-  --primary-fond: "Roboto", sans-serif;
-  --secondary-fond: "Raleway", sans-serif;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
   --primaru-text-color: #2e2f42;
   --secondary-text-color: #434455;
   --button-color: #4d5ae5;
 }
 
 body {
-  font-family: var(--primary-fond);
+  font-family: var(--primary-font);
   color: var(--secondary-text-color);
 }
 
@@ -16,12 +16,77 @@ body {
   list-style: none;
 }
 
-.link:focus,
-.link:hover {
+.logo-w:focus,
+.header-link:focus,
+.contacts-site:focus,
+.logo-w:hover,
+.header-link:hover,
+.contacts-site:hover {
   color: #404bbf;
 }
 .link {
   text-decoration: none;
+}
+/* =================Components================ */
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background: #404bbf;
+  color: #ffffff;
+}
+
+.button-portfolio {
+  font-family: var(--primary-font);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.04em;
+  cursor: pointer;
+
+  color: var(--button-color);
+  background: #f4f4fd;
+}
+
+.button {
+  font-family: var(--primary-font);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.04em;
+  cursor: pointer;
+
+  color: #ffffff;
+  background: #4d5ae5;
+}
+
+.button:hover,
+.button:focus {
+  background: #404bbf;
+  color: #ffffff;
+}
+/* =======================Header======================== */
+.logo-w {
+  font-family: var(--secondary-font);
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #4d5ae5;
+}
+.logo-s {
+  color: var(--primaru-text-color);
+}
+
+.adress {
+  font-style: normal;
 }
 
 .contacts-site {
@@ -32,6 +97,7 @@ body {
 
   color: var(--secondary-text-color);
 }
+
 .header-link {
   font-weight: 500;
   font-size: 16px;
@@ -41,6 +107,9 @@ body {
 
   color: var(--primaru-text-color);
 }
+
+/* ================Section=================== */
+
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
@@ -50,40 +119,9 @@ body {
 
   color: #ffffff;
 }
+
 .hero {
   background: #2e2f42;
-}
-
-.button-portfolio{
-  font-family: var(--primary-fond);
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-
-  letter-spacing: 0.04em;
-  cursor: pointer;
-
-  color:var(--button-color);
-  background: #F4F4FD;
-}
-.button {
-  font-family: var(--primary-fond);
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-
-  letter-spacing: 0.04em;
-  cursor: pointer;
-
-  color:#FFFFFF;
-  background:  #4D5AE5;
-}
-.button:hover,
-.button:focus {
-  background: #404bbf;
-  color: #ffffff;
 }
 
 .secondary-title {
@@ -129,24 +167,13 @@ body {
 
   letter-spacing: 0.02em;
 }
-.logo-w {
-  font-family: var(--secondary-fond);
 
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
+.sectiom-team {
+  background: #f4f4fd;
+}
 
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+/* ===========Footer=============== */
 
-  color: #4d5ae5;
-}
-.logo-s {
-  color: var(--primaru-text-color);
-}
-.adress {
-  font-style: normal;
-}
 .footer {
   background-color: var(--primaru-text-color);
 }
