@@ -7,13 +7,42 @@
   --button-color: #4d5ae5;
 }
 
+h1,h2,h3,h4,p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,ol{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img{
+  display: block;
+}
+button{
+  cursor: pointer;
+}
+
 body {
   font-family: var(--primary-font);
   color: var(--secondary-text-color);
 }
+.container{
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-bottom: 15px;
+
+}
 
 .list {
   list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .logo-w:focus,
@@ -24,9 +53,7 @@ body {
 .contacts-site:hover {
   color: #404bbf;
 }
-.link {
-  text-decoration: none;
-}
+
 /* =================Components================ */
 
 .button-portfolio:hover,
@@ -43,7 +70,7 @@ body {
   line-height: 1.5;
 
   letter-spacing: 0.04em;
-  cursor: pointer;
+  
 
   color: var(--button-color);
   background: #f4f4fd;
@@ -57,7 +84,7 @@ body {
   line-height: 1.5;
 
   letter-spacing: 0.04em;
-  cursor: pointer;
+  
 
   color: #ffffff;
   background: #4d5ae5;
